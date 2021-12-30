@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1640888529
+timestamp 1640893833
 << metal2 >>
 rect 524 -800 636 480
 rect 1706 -800 1818 480
@@ -518,10 +518,10 @@ rect 217294 702300 222294 704800
 rect 222594 694184 224794 704800
 rect 225094 694184 227294 704800
 rect 227594 702300 232594 704800
-rect 318994 694184 323994 704800
+rect 318994 702300 323994 704800
 rect 324294 694184 326494 704800
 rect 326794 694184 328994 704800
-rect 329294 694184 334294 704800
+rect 329294 702300 334294 704800
 rect 413394 702300 418394 704800
 rect 465394 702300 470394 704800
 rect 414659 697720 417157 702300
@@ -843,11 +843,9 @@ flabel metal3 s 465394 702300 470394 704800 0 FreeSans 1920 180 0 0 io_analog[2]
 port 39 nsew signal bidirectional
 flabel metal3 s 413394 702300 418394 704800 0 FreeSans 1920 180 0 0 io_analog[3]
 port 40 nsew signal bidirectional
+flabel metal3 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
+port 41 nsew signal bidirectional
 flabel metal3 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 41 nsew signal bidirectional
-flabel metal4 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 41 nsew signal bidirectional
-flabel metal5 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
 port 41 nsew signal bidirectional
 flabel metal3 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]
 port 42 nsew signal bidirectional
@@ -869,9 +867,7 @@ flabel metal3 s 16194 702300 21194 704800 0 FreeSans 1920 180 0 0 io_analog[9]
 port 46 nsew signal bidirectional
 flabel metal3 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
 port 47 nsew signal bidirectional
-flabel metal4 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 47 nsew signal bidirectional
-flabel metal5 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
+flabel metal3 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
 port 47 nsew signal bidirectional
 flabel metal3 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]
 port 48 nsew signal bidirectional
