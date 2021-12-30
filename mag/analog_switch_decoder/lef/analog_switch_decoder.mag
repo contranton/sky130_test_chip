@@ -1,0 +1,121 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1635555148
+<< obsli1 >>
+rect 1104 2159 14139 14705
+<< obsm1 >>
+rect 14 2128 14982 14736
+<< metal2 >>
+rect 1674 16364 1730 17164
+rect 4250 16364 4306 17164
+rect 7010 16364 7066 17164
+rect 9586 16364 9642 17164
+rect 12346 16364 12402 17164
+rect 14922 16364 14978 17164
+rect 18 0 74 800
+rect 2594 0 2650 800
+rect 5354 0 5410 800
+rect 7930 0 7986 800
+rect 10690 0 10746 800
+rect 13266 0 13322 800
+<< obsm2 >>
+rect 20 16308 1618 16364
+rect 1786 16308 4194 16364
+rect 4362 16308 6954 16364
+rect 7122 16308 9530 16364
+rect 9698 16308 12290 16364
+rect 12458 16308 14866 16364
+rect 20 856 14976 16308
+rect 130 800 2538 856
+rect 2706 800 5298 856
+rect 5466 800 7874 856
+rect 8042 800 10634 856
+rect 10802 800 13210 856
+rect 13378 800 14976 856
+<< metal3 >>
+rect 0 15512 800 15632
+rect 14220 13064 15020 13184
+rect 0 11704 800 11824
+rect 14220 9256 15020 9376
+rect 0 7624 800 7744
+rect 14220 5176 15020 5296
+rect 0 3816 800 3936
+rect 14220 1368 15020 1488
+<< obsm3 >>
+rect 880 15432 14220 15605
+rect 800 13264 14220 15432
+rect 800 12984 14140 13264
+rect 800 11904 14220 12984
+rect 880 11624 14220 11904
+rect 800 9456 14220 11624
+rect 800 9176 14140 9456
+rect 800 7824 14220 9176
+rect 880 7544 14220 7824
+rect 800 5376 14220 7544
+rect 800 5096 14140 5376
+rect 800 4016 14220 5096
+rect 880 3736 14220 4016
+rect 800 1568 14220 3736
+rect 800 1395 14140 1568
+<< obsm4 >>
+rect 3075 2128 11920 14736
+<< metal5 >>
+rect 1104 6138 13892 6458
+rect 1104 4053 13892 4373
+<< obsm5 >>
+rect 1104 8224 13892 12714
+<< labels >>
+rlabel metal5 s 1104 6138 13892 6458 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 4053 13892 4373 6 VPWR
+port 2 nsew power input
+rlabel metal3 s 14220 1368 15020 1488 6 addr[0]
+port 3 nsew signal input
+rlabel metal2 s 14922 16364 14978 17164 6 addr[1]
+port 4 nsew signal input
+rlabel metal2 s 9586 16364 9642 17164 6 addr[2]
+port 5 nsew signal input
+rlabel metal2 s 5354 0 5410 800 6 addr[3]
+port 6 nsew signal input
+rlabel metal3 s 14220 13064 15020 13184 6 fet_on[0]
+port 7 nsew signal output
+rlabel metal2 s 13266 0 13322 800 6 fet_on[10]
+port 8 nsew signal output
+rlabel metal3 s 0 15512 800 15632 6 fet_on[11]
+port 9 nsew signal output
+rlabel metal2 s 7010 16364 7066 17164 6 fet_on[12]
+port 10 nsew signal output
+rlabel metal2 s 18 0 74 800 6 fet_on[13]
+port 11 nsew signal output
+rlabel metal2 s 4250 16364 4306 17164 6 fet_on[14]
+port 12 nsew signal output
+rlabel metal2 s 10690 0 10746 800 6 fet_on[15]
+port 13 nsew signal output
+rlabel metal2 s 2594 0 2650 800 6 fet_on[1]
+port 14 nsew signal output
+rlabel metal3 s 0 3816 800 3936 6 fet_on[2]
+port 15 nsew signal output
+rlabel metal3 s 14220 9256 15020 9376 6 fet_on[3]
+port 16 nsew signal output
+rlabel metal3 s 0 7624 800 7744 6 fet_on[4]
+port 17 nsew signal output
+rlabel metal2 s 12346 16364 12402 17164 6 fet_on[5]
+port 18 nsew signal output
+rlabel metal2 s 7930 0 7986 800 6 fet_on[6]
+port 19 nsew signal output
+rlabel metal3 s 0 11704 800 11824 6 fet_on[7]
+port 20 nsew signal output
+rlabel metal2 s 1674 16364 1730 17164 6 fet_on[8]
+port 21 nsew signal output
+rlabel metal3 s 14220 5176 15020 5296 6 fet_on[9]
+port 22 nsew signal output
+<< properties >>
+string LEFclass BLOCK
+string FIXED_BBOX 0 0 15020 17164
+string LEFview TRUE
+string GDS_FILE analog_switch_decoder/analog_switch_decoder.gds
+string GDS_END 233870
+string GDS_START 39546
+<< end >>
+

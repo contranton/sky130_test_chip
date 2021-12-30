@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1636865648
+<< obsli1 >>
+rect 1104 2159 59587 60401
+<< obsm1 >>
+rect 14 2128 60430 60432
+<< metal2 >>
+rect 26146 61860 26202 62660
+rect 60370 61860 60426 62660
+rect 18 0 74 800
+rect 34242 0 34298 800
+<< obsm2 >>
+rect 20 61804 26090 61860
+rect 26258 61804 60314 61860
+rect 20 856 60424 61804
+rect 130 800 34186 856
+rect 34354 800 60424 856
+<< metal3 >>
+rect 0 50600 800 50720
+rect 59716 11704 60516 11824
+<< obsm3 >>
+rect 800 50800 59716 60417
+rect 880 50520 59716 50800
+rect 800 11904 59716 50520
+rect 800 11624 59636 11904
+rect 800 2143 59716 11624
+<< obsm4 >>
+rect 4208 2128 50608 60432
+<< metal5 >>
+rect 1104 20616 59340 20936
+rect 1104 5298 59340 5618
+<< obsm5 >>
+rect 1104 35934 59340 51572
+<< labels >>
+rlabel metal5 s 1104 20616 59340 20936 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 5298 59340 5618 6 VPWR
+port 2 nsew power input
+rlabel metal3 s 0 50600 800 50720 6 clk
+port 3 nsew signal input
+rlabel metal2 s 34242 0 34298 800 6 din
+port 4 nsew signal input
+rlabel metal2 s 18 0 74 800 6 out_window[0]
+port 5 nsew signal output
+rlabel metal2 s 26146 61860 26202 62660 6 out_window[1]
+port 6 nsew signal output
+rlabel metal2 s 60370 61860 60426 62660 6 out_window[2]
+port 7 nsew signal output
+rlabel metal3 s 59716 11704 60516 11824 6 out_window[3]
+port 8 nsew signal output
+<< properties >>
+string LEFclass BLOCK
+string FIXED_BBOX 0 0 60516 62660
+string LEFview TRUE
+string GDS_FILE /home/javier/sky130_test_chip/mag/shift_reg/shift_reg.gds
+string GDS_END 4647290
+string GDS_START 70064
+<< end >>
+
